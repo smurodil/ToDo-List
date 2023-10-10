@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+form, input{
+    padding: 15px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+form, button {
+    padding: 15px;
+    width: 300px;
+}
+
+#counter{
+    color: red;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul, li{
+    font-size: 25px;
+    color: #4e4f4e;
+    margin-bottom: 15px;
+}
+
+.hidden{
+    display: none;
+}
